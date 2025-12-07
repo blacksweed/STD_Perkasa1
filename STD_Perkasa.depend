@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1765084218 source:c:\tp_struktur data\std_perkasa\src\adminmenu.cpp
+	"../include/AdminMenu.h"
+	"../include/Utils.h"
+	<iostream>
+
+1765107519 c:\tp_struktur data\std_perkasa\include\adminmenu.h
+	"SongLibrary.h"
+	"Playlist.h"
+
+1765107297 c:\tp_struktur data\std_perkasa\include\songlibrary.h
+	"Song.h"
+	<iostream>
+
+1765050500 c:\tp_struktur data\std_perkasa\include\song.h
+	<string>
+
+1765107409 c:\tp_struktur data\std_perkasa\include\playlist.h
+	"Song.h"
+	<iostream>
+
+1765107584 c:\tp_struktur data\std_perkasa\include\utils.h
+
+1765084182 source:c:\tp_struktur data\std_perkasa\src\playqueue.cpp
+	"../include/PlayQueue.h"
+
+1765107491 c:\tp_struktur data\std_perkasa\include\playqueue.h
+	"Song.h"
+	<iostream>
+
+1765082826 source:c:\tp_struktur data\std_perkasa\src\playlist.cpp
+	"../include/Playlist.h"
+
+1765084214 source:c:\tp_struktur data\std_perkasa\src\songlibrary.cpp
+	"../include/SongLibrary.h"
+
+1765082888 source:c:\tp_struktur data\std_perkasa\src\utils.cpp
+	"../include/Utils.h"
+	<iostream>
+	<limits>
+
+1765084576 source:c:\tp_struktur data\std_perkasa\main.cpp
+	<windows.h>
+	<mmsystem.h>
+	<iostream>
+	"include/SongLibrary.h"
+	"include/Playlist.h"
+	"include/PlayQueue.h"
+	"include/AdminMenu.h"
+	"include/UserMenu.h"
+	"include/Utils.h"
+
+1765107553 c:\tp_struktur data\std_perkasa\include\usermenu.h
+	"SongLibrary.h"
+	"Playlist.h"
+	"PlayQueue.h"
+
+1765085108 source:c:\tp_struktur data\std_perkasa\src\usermenu.cpp
+	<windows.h>
+	<mmsystem.h>
+	<iostream>
+	<fstream>
+	"../include/UserMenu.h"
+	"../include/Utils.h"
+
